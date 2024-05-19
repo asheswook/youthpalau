@@ -44,8 +44,8 @@
 		border-gray-300
 		"
 	>
-		<div class="text-3xl mb-4">{subject}</div>
-		<div class="text-xl mb-4"><slot /></div>
+		<div class="text-2xl mb-4">{subject}</div>
+		<div class="text-lg mb-4"><slot /></div>
 		<div class="float-right">
 			<Button onClick={onConfirm}>{buttonText}</Button>
 		</div>

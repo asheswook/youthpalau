@@ -5,37 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46494e44-ccc6-4ed4-ac3b-8c6353e87748" name="변경" comment="Feat">
-      <change afterPath="$PROJECT_DIR$/src/hooks.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Header.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Introduce.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/modal/Modal.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/server/models/post.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/server/utils/database.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/types/post.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/api/board/+server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/banner.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/banner2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/char.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/intro-1-cut.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/intro-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/menu.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/card/Card.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/card/CardItem.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/layout/navigation/MobileNavItem.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/layout/navigation/MobileNavigation.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/layout/navigation/Navigation.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/20240506500203.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/20240507500069.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/jjigae.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/people.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/people.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/simple.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/layout/Footer.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/Button.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/button/Button.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/NavItem.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/layout/navigation/NavItem.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/layout/navigation/Navbar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/button/Button.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/button/Button.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/layout/navigation/NavItem.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/layout/navigation/NavItem.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/layout/navigation/Navbar.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/modal/Modal.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/modal/Modal.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/about/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +41,19 @@
         <option value="+layout" />
         <option value="nav" />
         <option value="NavItem.svelte" />
-        <option value="NavItem" />
         <option value="Header" />
         <option value="Footer" />
         <option value="Button" />
         <option value="Modal" />
         <option value="TypeScript File" />
         <option value="Introduce" />
+        <option value="Box" />
+        <option value="Nav" />
+        <option value="NavItem" />
+        <option value="NavContainer" />
+        <option value="MobileNavigation" />
+        <option value="MobileNavItem" />
+        <option value="CardItem" />
       </list>
     </option>
   </component>
@@ -80,6 +78,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="없음" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -91,43 +92,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/asheswook/Documents/Github/youthpalau/static/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/asheswook/Documents/Github/youthpalau/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/Users/asheswook/Documents/Github/youthpalau/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/asheswook/Documents/Github/youthpalau/static/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/asheswook/Documents/Github/youthpalau/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/asheswook/Documents/Github/youthpalau/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
+  &quot;keyToStringList&quot;: {
+    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: []
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib/components/card" />
       <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/src/lib/components" />
       <recent name="$PROJECT_DIR$/src/routes/api/board" />
       <recent name="$PROJECT_DIR$/src/lib" />
-      <recent name="$PROJECT_DIR$/src/lib/components/layout" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -162,6 +163,11 @@
       <workItem from="1714656197576" duration="5795000" />
       <workItem from="1714868181440" duration="2488000" />
       <workItem from="1716023667896" duration="619000" />
+      <workItem from="1716024291743" duration="185000" />
+      <workItem from="1716025483318" duration="624000" />
+      <workItem from="1716028393078" duration="619000" />
+      <workItem from="1716029856488" duration="582000" />
+      <workItem from="1716030937220" duration="21419000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -211,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711877137986</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Feat">
+      <option name="closed" value="true" />
+      <created>1716024356937</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716024356937</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

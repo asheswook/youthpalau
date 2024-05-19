@@ -5,10 +5,10 @@
 
 <button
 	on:click={() => onClick()}
-	class="flex text-lg font-bold py-2 px-4 m-2 rounded-lg text-center
-	{color === 'primary'
-		? 'bg-primary-700 hover:bg-primary-600 text-white'
-		: 'bg-tertiary-700 hover:bg-tertiary-600 text-white'}
+	class="flex text-lg max-sm:text-base font-bold py-2 px-5 m-1 rounded-xl text-center max-sm:py-2 max-sm:px-4 max-sm:text-md
+		{color === 'primary' && 'bg-primary-600 hover:bg-primary-700 text-white'}
+		{color === 'secondary' && 'bg-tertiary-500 hover:bg-tertiary-600 text-white'}
+		{color === 'gray' && 'bg-gray-600 hover:bg-gray-700 text-white'}
 	"
 >
 	<slot />

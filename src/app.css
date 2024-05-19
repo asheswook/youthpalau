@@ -5,4 +5,14 @@
 body {
     font-family: "Noto Sans KR", sans-serif;
     font-optical-sizing: auto;
+    background: rgb(229 231 235);
 }
+
+/*blockquote:before {*/
+/*    content: "|";*/
+/*    font-size: 1em;*/
+/*    font-weight: bold;*/
+/*    color: #a6a6a6;*/
+/*    float: left;*/
+/*    margin: -2px 5px 0px -5px;*/
+/*}*/

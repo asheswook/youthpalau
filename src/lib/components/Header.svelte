@@ -18,9 +18,9 @@
 	countUp();
 </script>
 
-<div class="text-4xl font-bold">
+<div class="text-3xl font-bold max-sm:text-xl break-keep">
 	현재까지 총 <span class="text-primary-700">{start.toLocaleString('ko-KR')}</span> 그릇의 밥공기로
 	<br />
-	<span class="text-primary-9y00">청년들의</span> 배를 든든히 채웠습니다.
+	<span class="text-primary-900">청년들의</span> 배를 든든히 채웠습니다.
 </div>
 <br />
