@@ -15,9 +15,6 @@ const config = {
 			routes: {
 				include: ['/*'],
 				exclude: ['<all>']
-			},
-			platformProxy: {
-				persist: './your-custom-path'
 			}
 		})
 	}
