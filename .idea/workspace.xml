@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46494e44-ccc6-4ed4-ac3b-8c6353e87748" name="변경" comment="Feat">
-      <change afterPath="$PROJECT_DIR$/src/lib/components/card/Card.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/card/CardItem.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/layout/navigation/MobileNavItem.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/layout/navigation/MobileNavigation.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/layout/navigation/Navigation.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/20240506500203.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/20240507500069.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/jjigae.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/people.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/people.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/simple.png" afterDir="false" />
+    <list default="true" id="46494e44-ccc6-4ed4-ac3b-8c6353e87748" name="변경" comment="config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Header.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/button/Button.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/button/Button.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/layout/navigation/NavItem.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/layout/navigation/NavItem.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/layout/navigation/Navbar.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/modal/Modal.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/modal/Modal.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/about/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +145,7 @@
       <workItem from="1716025483318" duration="624000" />
       <workItem from="1716028393078" duration="619000" />
       <workItem from="1716029856488" duration="582000" />
-      <workItem from="1716030937220" duration="21419000" />
+      <workItem from="1716030937220" duration="22120000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -225,7 +203,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716024356937</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Feat">
+      <option name="closed" value="true" />
+      <created>1716129070341</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716129070341</updated>
+    </task>
+    <task id="LOCAL-00009" summary="config">
+      <option name="closed" value="true" />
+      <created>1716129104511</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716129104511</updated>
+    </task>
+    <task id="LOCAL-00010" summary="config">
+      <option name="closed" value="true" />
+      <created>1716129316137</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716129316137</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +252,8 @@
     <MESSAGE value="Feat: initial page, layout created" />
     <MESSAGE value="Chore: license" />
     <MESSAGE value="Feat" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat" />
+    <MESSAGE value="config" />
+    <option name="LAST_COMMIT_MESSAGE" value="config" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
