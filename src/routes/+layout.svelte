@@ -13,15 +13,15 @@
 		<Navigation>
 			<NavItem to="/">홈</NavItem>
 			<NavItem to="/about">소개</NavItem>
-			<NavItem>게시판</NavItem>
-			<NavItem>후원 및 봉사 문의</NavItem>
+			<NavItem to="/board">게시판</NavItem>
+			<NavItem to="/donate">후원 및 봉사 문의</NavItem>
 		</Navigation>
 
 		<MobileNavigation>
 			<MobileNavItem to="/">홈</MobileNavItem>
 			<MobileNavItem to="/about">소개</MobileNavItem>
-			<MobileNavItem>게시판</MobileNavItem>
-			<MobileNavItem>후원 및 봉사 문의</MobileNavItem>
+			<MobileNavItem to="/about">게시판</MobileNavItem>
+			<MobileNavItem to="/donate">후원 및 봉사 문의</MobileNavItem>
 		</MobileNavigation>
 
 		<div class="flex flex-row flex-wrap gap-4 mt-5">
