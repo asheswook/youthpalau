@@ -1,7 +1,7 @@
 <script lang="ts">
-	export let count = 1000;
-	let start = 0;
+	export let count = 515;
 
+	let start = 0;
 	const countUp = () => {
 		const duration = 2000;
 		const range = count - start;
