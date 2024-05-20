@@ -18,9 +18,16 @@
 	countUp();
 </script>
 
-<div class="text-3xl font-bold max-sm:text-xl break-keep">
-	현재까지 총 <span class="text-primary-700">{start.toLocaleString('ko-KR')}</span> 그릇의 밥공기로
-	<br />
-	<span class="text-primary-900">청년들의</span> 배를 든든히 채웠습니다.
+<div class="flex flex-col w-full text-3xl font-bold max-sm:text-xl break-keep">
+	<div class="w-full">
+		현재까지 총 <span class="text-primary-700">{start.toLocaleString('ko-KR')}</span> 그릇의
+		밥공기로
+		<br />
+		<span class="text-primary-900">청년들의</span> 배를 든든히 채웠습니다.
+	</div>
+	<div class="flex ml-auto text-sm max-sm:text-xs font-medium mt-2 max-sm:mt-1 text-gray-600">
+		*5월 7일 ~ 5월 17일 기준
+	</div>
 </div>
+
 <br />
