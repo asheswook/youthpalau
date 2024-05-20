@@ -20,7 +20,7 @@
 		<MobileNavigation>
 			<MobileNavItem to="/">홈</MobileNavItem>
 			<MobileNavItem to="/about">소개</MobileNavItem>
-			<MobileNavItem to="/about">게시판</MobileNavItem>
+			<MobileNavItem to="/board">게시판</MobileNavItem>
 			<MobileNavItem to="/donate">후원 및 봉사 문의</MobileNavItem>
 		</MobileNavigation>
 
