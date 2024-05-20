@@ -41,24 +41,25 @@
 <Card title="청년밥상사업">
 	<div class="mb-1">
 		청년빨라우사회적협동조합은 청년들이 저렴한 가격에 한 끼 식사를 해결할 수 있도록 청년밥상사업을
-		진행하고 있습니다. 첫 청년밥상사업은 <span class="font-semibold">청년밥상빨라우 인하대점</span
+		진행하고 있습니다. 첫 청년밥상사업은 <span class="font-semibold text-primary-800"
+			>청년밥상빨라우 인하대점</span
 		>으로 시작했습니다. 많은 관심과 응원 부탁드립니다.
 	</div>
 	<a href="https://naver.me/Ga284EOw" class="mb-3 ml-auto text-blue-600 underline" target="_blank"
 		>인하대점 찾아오시는 길</a
 	>
-	<div class="flex flex-row">
-		<div class="rounded-l-xl overflow-hidden w-1/2 h-1/2">
+	<a class="flex flex-row" target="_blank" href="https://naver.me/Ga284EOw">
+		<div class="rounded-l-xl overflow-hidden hover:brightness-75 transition-all w-1/2 h-1/2">
 			<img src="/images/jjigae.png" alt="김치찌개" />
 		</div>
-		<div class="rounded-r-xl overflow-hidden w-1/2">
+		<div class="rounded-r-xl overflow-hidden hover:brightness-75 transition-all w-1/2">
 			<img src="/images/people.png" alt="사람들" />
 		</div>
-	</div>
+	</a>
 </Card>
 <Card title="보도자료">
 	<a
-		class="ml-1 font-semibold text-blue-600"
+		class="ml-1 font-semibold text-blue-600 hover:text-blue-800 transition-all"
 		target="_blank"
 		href="https://www.catholictimes.org/article/20240506500204"
 	>
@@ -68,7 +69,7 @@
 		>> 보글보글 김치찌개 3천원 ‘청년밥상빨라우’ 인하대점 개점 축복미사</span
 	>
 	<a
-		class="rounded-xl overflow-hidden"
+		class="rounded-xl overflow-hidden hover:brightness-75 transition-all"
 		target="_blank"
 		href="https://www.catholictimes.org/article/20240506500204"
 	>

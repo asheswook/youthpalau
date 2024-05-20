@@ -1,7 +1,7 @@
 <div class="flex items-center justify-between text-gray-600 font-bold">
-	<div>
+	<a href="/">
 		<img src="/images/simple.png" width="130px" />
-	</div>
+	</a>
 
 	<div class="max-sm:hidden flex justify-around">
 		<slot />
