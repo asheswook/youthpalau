@@ -7,6 +7,7 @@
 	import { Icon } from 'svelte-icons-pack';
 	import { BiDonateHeart } from 'svelte-icons-pack/bi';
 	import CardItem from '$lib/components/card/CardItem.svelte';
+	import { goto } from '$app/navigation';
 
 	let modalActive = false;
 	const toggleModalActive = (): void => {
@@ -17,6 +18,11 @@
 	const toggleModal2Active = (): void => {
 		modal2Active = !modal2Active;
 	};
+
+	const gotoVolunteer = () => {
+		// Move to volunteer page
+		goto('/volunteer');
+	};
 </script>
 
 <Card>
@@ -25,7 +31,7 @@
 	</div>
 </Card>
 <Card>
-	<CardItem icon={FaSolidPersonDigging} bgColor="bg-green-500" onClick={toggleModalActive}>
+	<CardItem icon={FaSolidPersonDigging} bgColor="bg-green-500" onClick={gotoVolunteer}>
 		<div class="flex flex-col">
 			<span class="text-base">청년밥상사업</span>
 			<span class="text-lg text-gray-800 font-semibold">봉사 신청하기</span>
