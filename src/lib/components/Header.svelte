@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let count = 788;
+	export let count = 1152;
 
 	let start = 0;
 	const countUp = () => {
@@ -26,7 +26,7 @@
 		<span class="text-primary-900">청년들의</span> 배를 든든히 채웠습니다.
 	</div>
 	<div class="flex ml-auto text-sm max-sm:text-xs font-medium mt-2 max-sm:mt-1 text-gray-600">
-		*5월 7일 ~ 5월 23일 기준
+		*5월 7일 ~ 5월 31일 기준
 	</div>
 </div>
 
