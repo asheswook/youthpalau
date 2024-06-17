@@ -14,11 +14,6 @@
 		modalActive = !modalActive;
 	};
 
-	let modal2Active = false;
-	const toggleModal2Active = (): void => {
-		modal2Active = !modal2Active;
-	};
-
 	const gotoVolunteer = () => {
 		// Move to volunteer page
 		goto('/volunteer');
@@ -37,12 +32,17 @@
 			<span class="text-lg text-gray-800 font-semibold">봉사 신청하기</span>
 		</div>
 	</CardItem>
-	<CardItem icon={BiDonateHeart} bgColor="bg-primary-400" onClick={toggleModal2Active}>
-		<div class="flex flex-col">
-			<span class="text-base">청년빨라우</span>
-			<span class="text-lg text-gray-800 font-semibold">후원 신청하기</span>
-		</div>
-	</CardItem>
+	<a
+		href="https://link.donationbox.co.kr/donationBoxList.jsp?campaignuid=IMs3rgPb3v"
+		target="_blank"
+	>
+		<CardItem icon={BiDonateHeart} bgColor="bg-primary-400">
+			<div class="flex flex-col">
+				<span class="text-base">청년빨라우</span>
+				<span class="text-lg text-gray-800 font-semibold">후원 신청하기</span>
+			</div>
+		</CardItem>
+	</a>
 </Card>
 <Card title="청년밥상사업">
 	<div class="mb-1">
@@ -89,15 +89,6 @@
 	active={modalActive}
 	onConfirm={() => {
 		toggleModalActive();
-	}}>준비 중입니다.</Modal
->
-
-<Modal
-	subject="알림"
-	buttonText="닫기"
-	active={modal2Active}
-	onConfirm={() => {
-		toggleModal2Active();
 	}}>준비 중입니다.</Modal
 >
 <!--<div-->
