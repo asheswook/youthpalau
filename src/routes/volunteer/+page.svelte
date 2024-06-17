@@ -3,6 +3,11 @@
 </script>
 
 <Card title="봉사 안내">
+	<a
+		class="text-blue-500 hover:text-blue-800 transition-all mb-2"
+		href="https://link.donationbox.co.kr/donationBoxList.jsp?campaignuid=IMs3rgPb3v"
+		target="_blank">후원 안내는 이곳을 클릭해주세요!</a
+	>
 	<span class="text-xl mb-4"
 		>청년밥상빨라우를 귀한 손길로 채워주시고자 하는 봉사자님을 모십니다.</span
 	>
