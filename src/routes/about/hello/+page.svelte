@@ -28,7 +28,7 @@
 				</span>
 				<span class="ml-auto">
 					<span class="ml-auto font-semibold text-[#c40a14]">청년빨라우 이사장</span><br />
-					재속전교가르멜회 김혜숙 젤뚜르다
+					재속전교가르멜회 김혜숙
 				</span>
 			</div>
 		</div>

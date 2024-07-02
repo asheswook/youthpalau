@@ -8,7 +8,7 @@
 	};
 </script>
 
-<Card title="소개" navi="/about/hello" naviName="이사장 인사말">
+<Card title="소개" navi="/about/hello" naviName="인사말">
 	<div class="flex flex-col items-center mb-5">
 		<div class="text-xl font-semibold mb-4">【‘청년밥상빨라우’ 설립 취지문】</div>
 		<div class="flex flex-col lg:max-w-[700px]">
