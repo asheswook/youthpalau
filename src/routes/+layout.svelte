@@ -30,7 +30,7 @@
 	</div>
 </div>
 <div class="flex flex-col items-center p-4 mb-2 text-gray-500 text-base">
-	<span>이사장: 김혜숙 | 고유번호: 585-82-00550 | 후원문의: 010-3181-1811</span>
+	<span>이사장: 김혜숙 | 사업자등록번호: 406-82-02968 | 후원문의: 010-3181-1811</span>
 	<span>후원 전용 계좌: 농협 355-0089-5777-03 (예금주: 청년빨라우사회적협동조합)</span>
 	<span class="mt-2 text-sm text-gray-400"
 		>Copyright © 2024 청년빨라우사회적협동조합. 모든 권리 보유.</span
