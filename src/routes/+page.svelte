@@ -8,10 +8,25 @@
 	import { BiDonateHeart } from 'svelte-icons-pack/bi';
 	import CardItem from '$lib/components/card/CardItem.svelte';
 	import { goto } from '$app/navigation';
+	import { browser } from '$app/environment';
 
 	let modalActive = false;
-	const toggleModalActive = (): void => {
+	if (browser) {
+		const active = localStorage.getItem('modalActive');
+		if (active === 'true') {
+			modalActive = true;
+		} else if (active === 'false') {
+			modalActive = false;
+		} else {
+			modalActive = true;
+		}
+
+		localStorage.setItem('modalActive', modalActive.toString());
+	}
+
+	const toggleModalActive = () => {
 		modalActive = !modalActive;
+		localStorage.setItem('modalActive', modalActive.toString());
 	};
 
 	const gotoVolunteer = () => {
@@ -84,13 +99,17 @@
 </Card>
 
 <Modal
-	subject="알림"
+	subject="여름휴가 안내"
 	buttonText="닫기"
 	active={modalActive}
 	onConfirm={() => {
 		toggleModalActive();
-	}}>준비 중입니다.</Modal
->
+	}}
+	>청년밥상빨라우를 아껴주시고 응원해주시는 청년들과 지역 주민분들께 감사합니다. 당 청년밥상빨라우는
+	<b>8월 5일 (월)~8월 9일 (금)</b>까지 전 인원 <b>하계 휴가로 인해 매장을 운영하지 않습니다.</b>
+	감사합니다.<br /><br />
+	청년밥상빨라우사회적협동조합 드림
+</Modal>
 <!--<div-->
 <!--	class="w-full card-shadow rounded-2xl h-96 border card-border-color overflow-hidden flex flex-col relative text-color"-->
 <!--	style="background-color: rgb(196, 10, 19); border-color: rgb(240, 18, 29); box-shadow: rgba(255, 255, 255, 0.15) 0px 4px 4px -2px inset; max-width: 310px;"-->
